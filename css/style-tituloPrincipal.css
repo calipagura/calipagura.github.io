@@ -39,7 +39,7 @@ nav ul li{
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 10%;
+    width: 15%;
     height: 30px;
     border-radius: 10px;
     transition-property: background-color;
@@ -69,6 +69,10 @@ footer{
     text-align: center;
 }
 
+nav ul li img{
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
 
 .holder{
     width: 960px;
