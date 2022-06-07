@@ -1,0 +1,14 @@
+#panelbienvenidos{
+  background-color: red;
+  width: 80%;
+  height: 400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+}
+
+#bienveidos_left{
+  background-color: blue;
+  width: 60%;
+  height: 200px;
+}
