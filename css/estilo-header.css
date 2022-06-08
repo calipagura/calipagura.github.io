@@ -1,36 +1,52 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
-body{
-  background-image: linear-gradient(to left,   #49dea5  ,  #3fb7ca  );
+
+*{
+  margin:0;
+  padding: 0;
 }
 
-header{
-  margin-top: 50px;
-}
-
-header span{
-    font-family: 'Bebas Neue', cursive;
-    text-align: justify;
-    color: white;
-    font-size: 50px;
+#baseTituloPrincipal{
+  position:relative;
 }
 
 #tituloPrincipal{
   display: flex;
-  flex-direction: column;
+  margin: 0 auto;
+  width: 100%;
+  height: 400px;
+  text-align: left;
+  background-image: url(../img/home/frente_instituto.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  filter: blur(3px);
+}
+
+#capaTituloPrincipal{
+  width: 100%;
+  height: 100%;
+  display: flex;
   justify-content: center;
   align-items: flex-end;
-  margin:0 auto;
-  width: 90%;
-  padding-right: 10%;
-  text-align: left;
-  height: 200px;
+  background-color: red;
+}
+
+#capaTituloPrincipal span{
+    position: absolute;
+    font-family: 'Bebas Neue', cursive;
+    text-align: justify;
+    color: black;
+    font-size: 50px;
+}
+
+article{
+  background-image: linear-gradient(to left,   #49dea5  ,  #3fb7ca  );
 }
 
 
 nav{
-    margin-bottom: 2em;
     width: 100%;
 }
 
@@ -39,8 +55,6 @@ nav ul{
     margin: 0;
     padding: 0;
     text-align: center;
-    margin-bottom: 50px;
-    margin-top: 20px;
 }
 
 #campusVirtual:hover{

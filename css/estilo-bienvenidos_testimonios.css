@@ -15,13 +15,15 @@
 }
 
 #bienvenidos_left p{
-  color: white;
+  color:  #222222 ;
   font-family: 'Poppins', sans-serif;
   text-align: justify;
   font-size: 18px;
 }
 
 #bienvenidos_left h2{
+  display: flex;
+  align-items: center;
   color: black;
   font-size: 30px;
   font-family: 'Roboto Condensed', sans-serif;
