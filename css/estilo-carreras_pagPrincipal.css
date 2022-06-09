@@ -1,9 +1,19 @@
-#panelBaseCarreras{
+#panelBasePropuestas{
   position: relative;
   display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   width: 80%;
-  height: 200px;
+  height: 500px;
   margin: 0 auto;
   margin-top: 30px;
+  color: white;
   background-color: red;
+}
+
+#panelBaseCarrera{
+  background-color: gray;
+  width: 32%;
+  height: 200px;
 }
