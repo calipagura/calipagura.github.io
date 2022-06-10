@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
 #panelBaseTCarreras{
   width: 90%;
   display: flex;
@@ -29,10 +31,40 @@
   height: 90%;
   margin: 10px;
   display: flex;
-  flex-direction: column;;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: transparent;
   border-radius: 15px;
   border: 2px solid white;
+  transition-property: background-color;
+  transition-duration: 0.2s;
+}
+
+#panelCarrera:hover{
+  box-shadow: 0px 0px 10px black;
+  border: 5px solid transparent;
+  background-color:  #4f4946 ;
+  color: black;
+  cursor: pointer;
+}
+
+#panelCarrera h1{
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#panelCarrera p{
+  color: white;
+  margin-top: 20px;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
