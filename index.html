@@ -15,32 +15,42 @@
 
     <body>
 
-
-      <header>
-          <div id="baseTituloPrincipal">
-            <div id="tituloPrincipal">
-              <div id="capaTituloPrincipal">
-              </div>
-              <h1 style="margin-right: 40px; color:   #4fd3c9  ; top: 210px;">Instituto de Educación</h1>
-              <h1 style="margin-right: 40px; color: white;top: 280px;">Superior Nº9</h1>
-            </div>
-          </div>
-      </header>
-
       <nav>
-        <ul>
-            <li> <img src="img/iconos/inicio.png" width="22px" height="22px"> <a href="index.html">Inicio</a></li>
-            <li> <img src="img/iconos/home.png" width="22px" height="22px"> <a href="galeria.html">Carreras</a></li>
-            <li> <img src="img/iconos/galeria.png" width="22px" height="22px"> <a href="nosotros.html">Novedades</a></li>
-            <li> <img src="img/iconos/ayuda.png" width="22px" height="22px"> <a href="nosotros.html">Ayuda</a></li>
-            <li id="campusVirtual" style="width: 19%;"> <img src="img/iconos/campus_virtual.png" width="22px" height="22px"><a href="https://isp9-sfe.infd.edu.ar/aula/acceso.cgi">Campus Virtual</a></li>
+        <ul id="menuPrincipal">
+          <li><img src="img/logo.png" id="logo"></li>
+          <li id="menu">
+            <ul>
+              <li>
+                <a href="index.html">Inicio</a>
+              </li>
+              <li>
+                <a href="proyectos/proyectos.html">Carreras</a>
+              </li>
+              <li>
+                <a href="#">Noticias</a>
+              </li>
+              <li>
+                <a href="sobrenosotros/sobrenosotros.html">Ayuda</a>
+              </li>
+              <li>
+                <button onclick="location.href='http://www.google.com'" type="button" id="accesoCampus">
+                Campus Virtual</button>
+              </li>
+            </ul>
+          </li>
         </ul>
       </nav>
 
       <article>
 
-        <div id="panelBasePropuestas">
-            <div id="panelBaseCarrera">
+        <div id="panelBasePresentacion">
+            <div id="panelBaseNombre">
+              <h1>NUNCA PARES DE APRENDER</h1>
+              <p>Sigue estudiando, el cansancio es temporal, la satisfacción es para siempre.</p>
+              <button onclick="location.href='https://www.google.com'" type="button">
+              VER CAMPUS</button>
+            </div>
+            <div id="panelBaseImagen">
 
             </div>
         </div>
