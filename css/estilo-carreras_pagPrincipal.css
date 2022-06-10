@@ -62,6 +62,7 @@
 #panelBaseImagen{
   display: flex;
   justify-content: center;
+  margin-left: 200px;
   align-items: center;
   width: 60%;
   height: 100%;

@@ -15,7 +15,7 @@
 }
 
 #bienvenidos_left p{
-  color:  #222222 ;
+  color:  white ;
   font-family: 'Poppins', sans-serif;
   text-align: justify;
   font-size: 18px;
@@ -24,7 +24,7 @@
 #bienvenidos_left h2{
   display: flex;
   align-items: center;
-  color: black;
+  color: white;
   font-size: 30px;
   font-family: 'Roboto Condensed', sans-serif;
 }
@@ -35,7 +35,7 @@
 
 #testimonios_right iframe{
   border:0;
-  margin-top: 100px;
+  margin-top: 50px;
   border-radius: 10px;
   transition-property: box-shadow;
   transition-duration: 0.5s;
