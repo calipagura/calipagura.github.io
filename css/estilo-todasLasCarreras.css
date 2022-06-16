@@ -3,43 +3,44 @@
 #panelBaseTCarreras{
   width: 100%;
   display: flex;
+  padding-top: 25px;
   flex-direction: column;
   background-color: #373433 ;
   justify-content: center;
   align-items: center;
-  height: 900px;
+  height: 1500px;
   margin: 0 auto;
   margin-top: 60px;
+  padding-top: 80px;
+    padding-bottom: 80px;
 }
 
-#panelBaseCarrerasUno{
+#panelBaseCarrerasHorizontal{
   background-color: transparent;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  width: 95%;
-  height: 50%;
-}
-
-#panelBaseCarrerasDos{
-  background-color: transparent;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 50%;
+  width: 90%;
+  height: 30%;
 }
 
 #panelCarrera{
   width: 50%;
   background-color: #423f3d  ;
-  height: 80%;
+  height: 95%;
   margin: 10px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   border: 0px solid black;
+  transition-property: box-shadow;
+  transition-duration: 0.5s;
+  border-radius: 10px;
+}
+
+#panelCarrera:hover{
+  box-shadow: 5px 5px 1px gray;
 }
 
 #panelCarrera p{
@@ -60,6 +61,7 @@
   background-image: url(../img/personas/tec_superior_desarrollo.jpeg);
   background-position: center;
   height: 100%;
+  border-radius: 10px 0px 0px 10px;
 }
 
 #panelDescripcionCarrera{
