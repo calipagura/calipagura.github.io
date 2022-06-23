@@ -8,11 +8,11 @@
   background-color: #373433 ;
   justify-content: center;
   align-items: center;
-  height: 1500px;
+  height: 1200px;
   margin: 0 auto;
   margin-top: 60px;
-  padding-top: 80px;
-    padding-bottom: 80px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 #panelBaseCarrerasHorizontal{
@@ -21,14 +21,13 @@
   justify-content: space-between;
   align-items: center;
   width: 90%;
-  height: 30%;
 }
 
 #panelCarrera{
   width: 50%;
   background-color: #423f3d  ;
-  height: 95%;
-  margin: 10px;
+  height: 280px;
+  margin: 7px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -40,7 +39,7 @@
 }
 
 #panelCarrera:hover{
-  box-shadow: 5px 5px 1px gray;
+  box-shadow: 4px 4px 1px #5acfad;
 }
 
 #panelCarrera p{
@@ -58,7 +57,6 @@
   justify-content: center;
   align-items: center;
   width: 50%;
-  background-image: url(../img/personas/tec_superior_desarrollo.jpeg);
   background-position: center;
   height: 100%;
   border-radius: 10px 0px 0px 10px;
@@ -99,4 +97,118 @@
   background-color: white;
   cursor: pointer;
   color: black;
+}
+
+#panelRedesSociales{
+  width: 50%;
+  height: 90%;
+  margin: 7px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 0px solid black;
+}
+
+#tituloItem{
+  display: flex;
+  align-self: center;
+  font-weight: bold;
+  text-align: center;
+  color:white;
+  font-size: 23px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#itemRedesSociales{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+#itemRedesSociales ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 30%;
+  padding: 5px;
+  list-style-type: none;
+}
+
+#iconoFacebook{
+  text-align: center;
+  width: 70px;
+  height: 70px;
+  background: transparent;
+  border: 0px solid white;
+  border-radius: 5px;
+  color: white;
+  background-image: url("../img/iconos/icono-facebook.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  transition-property: transform,filter;
+  transition-duration: .4s;
+}
+
+#iconoFacebook:hover{
+  cursor: pointer;
+  transform: scale(0.8);
+  background-image:url("../img/iconos/icono-facebook-hover.png");
+}
+
+#iconoTwitter{
+  text-align: center;
+  width: 70px;
+  height: 70px;
+  background: transparent;
+  border: 0px solid white;
+  border-radius: 5px;
+  color: white;
+  background-image: url("../img/iconos/icono-twitter.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  transition-property: transform,filter;
+  transition-duration: .4s;
+}
+
+#iconoTwitter:hover{
+  cursor: pointer;
+  transform: scale(0.8);
+  background-image: url("../img/iconos/icon-twitter-hover.png");
+}
+
+#iconoGmail{
+  text-align: center;
+  width: 70px;
+  height: 70px;
+  background: transparent;
+  border: 0px solid white;
+  border-radius: 5px;
+  color: white;
+  background-image: url("../img/iconos/icono-gmail.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  transition-property: transform,filter;
+  transition-duration: .4s;
+}
+
+#iconoGmail:hover{
+  cursor: pointer;
+  transform: scale(0.8);
+  background-image: url("../img/iconos/icono-gmail-hover.png");
+}
+
+#botonVerRedeSociales{
+  text-align: center;
+  width: 70px;
+  height: 70px;
+  background: transparent;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
 }
