@@ -169,7 +169,7 @@
   border: 0px solid white;
   border-radius: 5px;
   color: white;
-  background-image: url("../img/iconos/icono-twitter.png");
+  background-image: url("../img/iconos/icono-instagram.png");
   background-repeat: no-repeat;
   background-position: center;
   transition-property: transform,filter;
@@ -179,7 +179,7 @@
 #iconoTwitter:hover{
   cursor: pointer;
   transform: scale(0.8);
-  background-image: url("../img/iconos/icon-twitter-hover.png");
+  background-image: url("../img/iconos/icono-instagram-hover.png");
 }
 
 #iconoGmail{
